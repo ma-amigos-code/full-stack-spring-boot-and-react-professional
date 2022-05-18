@@ -38,7 +38,15 @@
 - https://hub.docker.com/signup
     -
 - https://github.com/GoogleContainerTools/jib
-- Commands used: docker login docker pull docker rm -f id ./mvnw clean install jib:build -Djib.to.image=amigoscode/spring-react-fullstack:latest ./mvnw clean install jib:build -Djib.to.image=amigoscode/spring-react-fullstack:latest -D jib.to.auth.username=amigoscode -Djib.to.auth.password=yourpassword docker pull amigoscode/spring-react-fullstack:latest docker run -p 8080:8080 amigoscode/spring-react-fullstack
+- Commands used: 
+  - docker login 
+  - docker pull docker rm -f id 
+  - ./mvnw clean install jib:build -Djib.to.image=amigoscode/spring-react-fullstack:latest 
+  - ./mvnw clean install jib:build -Djib.to.image=amigoscode/spring-react-fullstack:latest -D jib.to.auth.username=amigoscode -Djib.to.auth.password=yourpassword docker 
+  - pull amigoscode/spring-react-fullstack:latest 
+  - docker run -p 8080:8080 amigoscode/spring-react-fullstack
+  - ./mvnw clean install -P build-frontend -P jib-push-to-dockerhub -Dapp.image.tag=2
+  - ./mvnw clean install -P build-frontend -P jib-push-to-local -Dapp.image.tag=latest
 
 ## AWS & Elastic Beanstalk
 
