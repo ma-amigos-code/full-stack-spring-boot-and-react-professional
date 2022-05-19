@@ -84,7 +84,7 @@
 
 	<profiles>
 		<profile>
-			<id>jib-push-to-docker</id>
+			<id>jib-push-to-dockerhub</id>
 			<activation>
 				<activeByDefault>false</activeByDefault>
 			</activation>
