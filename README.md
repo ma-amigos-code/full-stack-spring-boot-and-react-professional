@@ -70,7 +70,7 @@
     - docker rm -f db
 - Connecting to db using PSQL Container:
     - docker run -it --rm --network=db postgres:alpine psql -h db -U postgres
-    - docker run -it --rm postgres:alpine psql -h aaktm1pnjlyq1w.cdr9sq1nbkmo.us-east-2.rds.amazonaws.com -U amigoscode -d postgres
+    - docker run -it --rm postgres:alpine psql -h aa1pbhzldxn8x6p.c40edtfwmd6n.us-east-1.rds.amazonaws.com -U amigoscode -d postgres
 - List docker networks: docker network ls
 - Listing Containers: docker container ls
 - Create database: CREATE DATABASE amigoscode;
