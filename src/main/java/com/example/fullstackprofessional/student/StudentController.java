@@ -47,6 +47,6 @@ public class StudentController<student> {
     @DeleteMapping(path = "{studentId}")
     public void deleteStudent(@PathVariable("studentId") Long studentId) {
         // check if student exists
-        studentService.addDelete(studentId);
+        studentService.deleteStudent(studentId);
     }
 }

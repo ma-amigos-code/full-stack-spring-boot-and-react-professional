@@ -24,7 +24,7 @@ public class StudentService {
         studentRepository.save(student);
     }
 
-    public void addDelete(Long studentId) {
+    public void deleteStudent(Long studentId) {
         if (!studentRepository.existsById(studentId)) {
             throw new StudentNotFoundException("Student with id " + studentId + " does not exists");
         }
