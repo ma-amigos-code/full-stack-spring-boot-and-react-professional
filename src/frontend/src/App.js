@@ -11,7 +11,9 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm
+    Radio,
+    Popconfirm,
+    Divider
 } from 'antd';
 
 import {
@@ -221,7 +223,15 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                By Amigoscode
+                <Divider>
+                   <a target="_blank"
+                      href="https://amigoscode.com/">
+                       Click here to access amigos code page
+                   </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
