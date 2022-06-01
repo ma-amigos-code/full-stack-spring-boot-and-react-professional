@@ -226,7 +226,8 @@ function App() {
             <Footer style={{textAlign: 'center'}}>
                 By Amigoscode
                 <Divider>
-                   <a target="_blank"
+                   <a rel="noopener noreferrer"
+                      target="_blank"
                       href="https://amigoscode.com/">
                        Click here to access amigos code page
                    </a>
