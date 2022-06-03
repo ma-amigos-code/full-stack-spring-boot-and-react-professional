@@ -85,3 +85,11 @@
 - https://github.com/features/actions
 - https://slack.com/
 - https://api.slack.com/apps
+
+## Testing
+- https://junit.org/junit5/
+- https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests
+- https://assertj.github.io/doc/
+- https://maven.apache.org/surefire/maven-failsafe-plugin/
+- Happy Path?
+- https://github.com/DiUS/java-faker
