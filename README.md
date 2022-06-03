@@ -93,3 +93,6 @@
 - https://maven.apache.org/surefire/maven-failsafe-plugin/
 - Happy Path?
 - https://github.com/DiUS/java-faker
+
+## Lets Wrap Up
+- https://github.com/amigoscode/spring-boot-fullstack-professional/projects/1
